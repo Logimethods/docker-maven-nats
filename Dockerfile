@@ -1,4 +1,4 @@
-FROM maven:3.5.4-jdk-8-alpine
+FROM maven:3.5.4-jdk-8
 
 RUN wget https://github.com/nats-io/gnatsd/releases/download/v1.3.0/gnatsd-v1.3.0-linux-amd64.zip -O gnatsd.zip \
     && unzip gnatsd.zip \
