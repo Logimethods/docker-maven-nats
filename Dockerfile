@@ -12,3 +12,6 @@ RUN wget https://github.com/nats-io/nats-streaming-server/releases/download/v0.1
 
 ENV PATH $PATH:/nats-streaming-server-v0.11.2-linux-amd64
 
+## https://github.com/keybase/keybase-issues/issues/2798
+ENV GPG_TTY $(tty)
+
