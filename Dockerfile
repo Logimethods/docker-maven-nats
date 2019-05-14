@@ -15,3 +15,4 @@ ENV PATH $PATH:/nats-streaming-server-v0.11.2-linux-amd64
 ## https://github.com/keybase/keybase-issues/issues/2798
 ENV GPG_TTY $(tty)
 
+RUN apt-get update && apt-get install -y netcat
