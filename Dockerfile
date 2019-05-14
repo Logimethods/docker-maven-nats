@@ -12,3 +12,4 @@ RUN wget https://github.com/nats-io/nats-streaming-server/releases/download/v0.1
 
 ENV PATH $PATH:/nats-streaming-server-v0.11.2-linux-amd64
 
+RUN apt-get update && apt-get install -y netcat
